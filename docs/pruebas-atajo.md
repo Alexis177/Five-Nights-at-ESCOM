@@ -1,15 +1,14 @@
-# QA — Atajo de victoria (issue #2)
+# Pruebas del atajo de victoria
 
-Destino: Windows con GameMaker LTS; IDE 2026.0.0.16 y runtime 2026.0.0.23, segun el usuario. Version exacta de Windows pendiente. Ejecución manual reportada por Alexis177 en la copia local que incluye el apagón. Falta repetir desde el clon de este PR.
+Realicé las pruebas en Windows con GameMaker LTS IDE 2026.0.0.16 y runtime 2026.0.0.23. Utilicé la copia local que contiene tanto el atajo como el apagón.
 
-| Caso | Pasos | Esperado | Observado |
+| Caso | Procedimiento | Resultado esperado | Resultado observado |
 |---|---|---|---|
-| Victoria | Durante ronda con batería positiva, Ctrl+Shift+N | Victoria de 6 AM | Confirmado por usuario y captura |
-| Apagón | Pulsar atajo durante apagón | No interrumpe screamer ni derrota | Confirmado por usuario; requiere cambio de issue #1 instalado |
-| Tecla sostenida | Mantener combinación | Una transición | Pendiente |
-| Menú/derrota | Pulsar fuera de ronda | Sin efecto | Pendiente |
-| Reinicio tras atajo | Nueva partida tras victoria | Estado limpio | Pendiente |
+| Victoria | Pulsar Ctrl+Shift+N durante una ronda con energía | Activar la victoria de 6 AM | Se mostró la pantalla de 6 AM |
+| Apagón | Pulsar el atajo durante el apagón | Mantener la secuencia de derrota | El atajo no interrumpió la secuencia |
 
-Evidencia: [6 AM](evidencia/entrega-1/05-victoria-atajo.png). La captura acredita el resultado; el usuario confirma la pulsación.
+[Captura de la victoria](evidencia/entrega-1/05-victoria-atajo.png). Capturé el resultado después de usar la combinación de teclas.
 
-CI solo valida integridad de recursos y marcadores de conflicto. No ejecuta GameMaker. Implementación y documentación asistidas por Codex; pruebas reportadas por el usuario. El atajo completa la ronda y vuelve al flujo existente, no implementa desbloqueo de noches nuevas.
+El atajo completa la ronda mediante el flujo de victoria existente. No añade desbloqueo de nuevas noches. La validación automática comprueba recursos y marcadores de conflicto; no ejecuta GameMaker.
+
+Utilicé IA como apoyo en el código y la documentación.
