@@ -14,6 +14,28 @@ El proyecto utiliza GameMaker y eventos de objetos escritos en GML. El archivo `
 
 La lógica de la ronda y los recursos se ejecutan localmente. La implementación del apagón no utiliza un servidor ni añade dependencias externas.
 
+## Diagrama de arquitectura
+
+```mermaid
+flowchart TD
+    Y[Proyecto .yyp y options] --> R[Salas e instancias]
+    R --> E[Eventos GML de objetos]
+    I[Entrada: ratón y teclado] --> E
+    E --> G[Estado global de la ronda]
+    G --> B[obj_BatCheck: energía y apagón]
+    B --> D[Draw GUI: cobertura negra]
+    B --> GO[Sala GameOver / obj_GOManager]
+    E --> T[obj_WinTimer: reloj y victoria]
+    T --> W[Sala Win / obj_WinManager]
+    A[Sprites, sonidos, secuencias y video] --> E
+    CI[GitHub Actions] --> V[tools/validate_project.py]
+    V -. valida archivos y referencias .-> Y
+```
+
+Los eventos actualizan el estado y usan los recursos locales para representar la partida. El apagón desactiva las herramientas y detiene la alarma de victoria. CI se ejecuta fuera del juego y revisa los archivos del repositorio.
+
+Autor de la documentación: Alexis Hernandez. Diagrama elaborado con apoyo de IA en la documentación.
+
 ## Recorrido del agotamiento
 
 1. `objects/obj_Culturales1/Create_0.gml` inicializa la energía y restablece el estado del apagón.

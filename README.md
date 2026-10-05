@@ -18,6 +18,7 @@ La ejecución manual documentada se realizó sobre la copia local LTS. Las instr
 ## Documentación
 
 - [Idea y criterios del cambio](docs/idea.md).
+- [Bosquejos, controles y flujo de pantallas](docs/diseno/README.md).
 - [Estructura y recorrido del código](docs/arquitectura.md).
 - [Pruebas realizadas](docs/pruebas.md).
 - [Evidencias antes y después](docs/evidencia/entrega-1/README.md).
