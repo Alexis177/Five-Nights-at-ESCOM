@@ -45,6 +45,7 @@
     {"name":"obj_Music","order":8,"path":"objects/obj_Music/obj_Music.yy",},
     {"name":"obj_NuevoJuego","order":2,"path":"objects/obj_NuevoJuego/obj_NuevoJuego.yy",},
     {"name":"obj_Opciones","order":5,"path":"objects/obj_Opciones/obj_Opciones.yy",},
+    {"name":"obj_pauseManager","order":13,"path":"objects/obj_pauseManager/obj_pauseManager.yy",},
     {"name":"obj_Periodico","order":4,"path":"objects/obj_Periodico/obj_Periodico.yy",},
     {"name":"obj_PMJS","order":1,"path":"objects/obj_PMJS/obj_PMJS.yy",},
     {"name":"obj_Prismoso10","order":2,"path":"objects/obj_Prismoso10/obj_Prismoso10.yy",},

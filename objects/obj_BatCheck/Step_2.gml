@@ -1,3 +1,7 @@
+// Si el juego está pausado, detiene la lógica de consumo de energía
+if (variable_global_exists("game_paused") && global.game_paused) {
+    exit;
+}
 // Energy depletion ends the round through a staged blackout.
 if (blackout_phase > 0) {
     blackout_ticks += 1;

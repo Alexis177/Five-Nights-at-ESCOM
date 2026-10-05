@@ -131,7 +131,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2022.0.3.85",
+    "IDEVersion":"2026.0.0.16",
   },
   "name":"Five Nights at ESCOM",
   "resources":[
@@ -185,6 +185,7 @@
     {"id":{"name":"obj_Music","path":"objects/obj_Music/obj_Music.yy",},},
     {"id":{"name":"obj_NuevoJuego","path":"objects/obj_NuevoJuego/obj_NuevoJuego.yy",},},
     {"id":{"name":"obj_Opciones","path":"objects/obj_Opciones/obj_Opciones.yy",},},
+    {"id":{"name":"obj_pauseManager","path":"objects/obj_pauseManager/obj_pauseManager.yy",},},
     {"id":{"name":"obj_Periodico","path":"objects/obj_Periodico/obj_Periodico.yy",},},
     {"id":{"name":"obj_PM","path":"objects/obj_PM/obj_PM.yy",},},
     {"id":{"name":"obj_PMJS","path":"objects/obj_PMJS/obj_PMJS.yy",},},
