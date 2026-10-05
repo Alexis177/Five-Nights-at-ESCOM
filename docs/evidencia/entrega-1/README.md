@@ -28,3 +28,7 @@ Estas capturas documentan el comportamiento del juego; no incluyen identificaci�
 ![Juego y GameMaker en ejecución](hernandez-alexis-entrega1.png)
 Captura de mi ejecución local con el juego y GameMaker visibles en la misma imagen. Se muestran IDE 2026.0.0.16 y runtime 2026.0.0.23.
 
+## Ejecución individual — Luis Agustin
+
+![Juego y GameMaker en ejecución](agustin-luis-entrega1.png)
+Captura de mi ejecución local con el juego y GameMaker visibles en la misma imagen. Se muestran IDE 2026.0.0.16 y runtime 2026.0.0.23.
