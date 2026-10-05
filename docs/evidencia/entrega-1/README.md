@@ -22,3 +22,9 @@ Al agotarse la batería, la cámara y el láser dejaron de funcionar, pero la pa
 En la prueba del cambio comprobé ese orden de presentación al agotarse la batería.
 
 Estas capturas documentan el comportamiento del juego; no incluyen identificación del IDE o de Git en la misma imagen.
+
+## Ejecución individual — Alexis Hernandez
+
+![Juego y GameMaker en ejecución](hernandez-alexis-entrega1.png)
+Captura de mi ejecución local con el juego y GameMaker visibles en la misma imagen. Se muestran IDE 2026.0.0.16 y runtime 2026.0.0.23.
+
