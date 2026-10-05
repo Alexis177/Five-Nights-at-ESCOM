@@ -1,6 +1,6 @@
 # QA — Atajo de victoria (issue #2)
 
-Destino: Windows con GameMaker LTS; versiones exactas y runtime pendientes. Ejecución manual reportada por Alexis177 en la copia local que incluye el apagón. Falta repetir desde el clon de este PR.
+Destino: Windows con GameMaker LTS; IDE 2026.0.0.16 y runtime 2026.0.0.23, segun el usuario. Version exacta de Windows pendiente. Ejecución manual reportada por Alexis177 en la copia local que incluye el apagón. Falta repetir desde el clon de este PR.
 
 | Caso | Pasos | Esperado | Observado |
 |---|---|---|---|
