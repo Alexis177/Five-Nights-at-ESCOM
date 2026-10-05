@@ -1,6 +1,6 @@
 # Matriz de pruebas — Entrega 1
 
-Pruebas manuales realizadas y reportadas por Alexis177 durante esta conversación; el asistente no ejecutó GameMaker. Destino observado: Windows. Versiones exactas de Windows, IDE LTS y runtime: pendientes. El proyecto probado es la copia LTS local, con ambas características; falta repetir desde el clon de cada PR. Los commits se identificarán mediante las ligas de los PR.
+Pruebas manuales realizadas y reportadas por Alexis177 durante esta conversación; el asistente no ejecutó GameMaker. Destino observado: Windows. IDE: 2026.0.0.16; runtime: 2026.0.0.23, segun el usuario. Version exacta de Windows: pendiente. El proyecto probado es la copia LTS local, con ambas características; falta repetir desde el clon de cada PR. Los commits se identificarán mediante las ligas de los PR.
 
 | Caso | Pasos | Esperado | Resultado real | Estado |
 |---|---|---|---|---|
