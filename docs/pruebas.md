@@ -17,4 +17,13 @@ También comprobé que el juego funciona sin Wi-Fi. Esta observación se limita 
 
 La validación automática revisa la integridad de recursos, las referencias de salas y los marcadores de conflicto en GML. No compila ni ejecuta GameMaker.
 
+## Comparación visual con texto ampliado
+
+Comparé el menú con el ajuste de tamaño del texto de Windows en las posiciones mínima y máxima del control. En las capturas se aprecia que el texto del sistema y el título de la ventana aumentan; las opciones Nuevo Juego y Salir conservan un tamaño visual parecido. El porcentaje exacto del ajuste de texto no aparece en las capturas. El 100% visible corresponde a la escala general de pantalla, un ajuste distinto.
+
+Esta evidencia documenta la apariencia del menú y no demuestra por sí sola la respuesta de los controles durante una partida con texto ampliado.
+
+- [Texto ampliado](evidencia/entrega-1/08-texto-ampliado.png).
+- [Texto normal](evidencia/entrega-1/09-texto-normal.png).
+
 Utilicé IA como apoyo en el código y la documentación.
