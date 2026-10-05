@@ -1,3 +1,4 @@
+if (global.EnergyBlackout) exit;
 /// @DnDAction : YoYo Games.Switch.Switch
 /// @DnDVersion : 1
 /// @DnDHash : 40E6CC3D

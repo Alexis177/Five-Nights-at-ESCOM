@@ -1,3 +1,4 @@
+global.EnergyBlackout = false;
 /// @DnDAction : YoYo Games.Random.Randomize
 /// @DnDVersion : 1
 /// @DnDHash : 07909E33
