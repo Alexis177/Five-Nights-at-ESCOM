@@ -1,21 +1,20 @@
-# Matriz de pruebas — Entrega 1
+# Pruebas de ejecución — Entrega 1
 
-Pruebas manuales realizadas y reportadas por Alexis177 durante esta conversación; el asistente no ejecutó GameMaker. Destino observado: Windows. IDE: 2026.0.0.16; runtime: 2026.0.0.23, segun el usuario. Version exacta de Windows: pendiente. El proyecto probado es la copia LTS local, con ambas características; falta repetir desde el clon de cada PR. Los commits se identificarán mediante las ligas de los PR.
+Realicé estas comprobaciones el 4 de octubre de 2026 en Windows, con GameMaker LTS IDE 2026.0.0.16 y runtime 2026.0.0.23. Utilicé la copia local del proyecto, que contiene el apagón y el atajo de victoria. Los resultados corresponden a esa ejecución manual.
 
-| Caso | Pasos | Esperado | Resultado real | Estado |
-|---|---|---|---|---|
-| Flujo principal | Nueva partida, abrir/cerrar cámara y activar/desactivar láser | Controles responden y batería disminuye | Confirmado por el usuario | Confirmado manualmente |
-| Agotamiento | Usar herramientas hasta vaciar batería | Oscuridad → screamer → Game Over | Orden confirmado por el usuario; video adjunto | Confirmado manualmente |
-| Reinicio | Tras derrota, iniciar Nuevo Juego | Batería llena, controles activos, pantalla normal | Las tres condiciones confirmadas | Confirmado manualmente |
-| Sin red | Ejecutar y jugar sin Wi-Fi | Juego local funcional | Usuario confirma funcionamiento; pasos detallados pendientes | Confirmación parcial |
-| Datos inválidos | En depurador, energía negativa | Normaliza a cero y activa apagón sin error | No ejecutado | Pendiente |
-| Rotación/recreación | Probar en destino aplicable; documentar política de estado | Sin crash ni interfaz inutilizable | No ejecutado; reiniciar aplicación no sustituye recreación móvil | Pendiente |
-| Texto ampliado | Aumentar escala/texto y comprobar controles | Legibilidad y controles utilizables | No ejecutado | Pendiente |
-| Accesibilidad | Revisar etiquetas, contraste y área táctil | Controles identificables y usables | No ejecutado | Pendiente |
-| Umbrales y fin simultáneo | Dos consumidores cerca de cero; victoria coincidente | Una salida coherente sin valores negativos | No ejecutado de forma dirigida | Pendiente |
+| Caso | Procedimiento | Resultado esperado | Resultado observado |
+|---|---|---|---|
+| Inicio | Abrir el juego y seleccionar Nuevo Juego | Entrar a la partida | Se mostró la oficina con reloj y batería |
+| Cámara | Abrir y cerrar la vigilancia durante la partida | Mostrar cámaras y regresar a la oficina | La interfaz respondió |
+| Láser | Activar y desactivar el láser con energía | Cambiar su estado | El control respondió |
+| Comportamiento original | Agotar la batería antes de modificar el juego | Registrar la reacción original | Cámara y láser dejaron de funcionar; la oficina siguió visible |
+| Apagón modificado | Agotar la batería con el cambio instalado | Pantalla negra, screamer y Game Over, en ese orden | Comprobé la secuencia en ese orden |
+| Nueva partida | Iniciar otra partida tras la derrota | Restaurar energía y controles | Batería llena, controles activos y pantalla normal |
 
-Evidencia: [video de agotamiento](evidencia/entrega-1/06-apagon-screamer-gameover.mp4). El archivo se copió íntegro; el asistente no pudo reproducirlo. No sustituye la captura individual con identificación del equipo.
+También comprobé que el juego funciona sin Wi-Fi. Esta observación se limita al funcionamiento local del juego.
 
-CI valida recursos del proyecto, orden de salas y ausencia de marcadores de conflicto en GML. No compila ni ejecuta GameMaker.
+[Capturas del funcionamiento original y video del cambio](evidencia/entrega-1/README.md).
 
-Uso de IA: Codex de OpenAI asistió en análisis, implementación, corrección, documentación y preparación de CI/PR. Las confirmaciones de ejecución fueron aportadas por el usuario.
+La validación automática revisa la integridad de recursos, las referencias de salas y los marcadores de conflicto en GML. No compila ni ejecuta GameMaker.
+
+Utilicé IA como apoyo en el código y la documentación.
